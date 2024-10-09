@@ -2,18 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'dart:async';
 
-class WaterLevel extends StatefulWidget {
-  const WaterLevel({super.key});
+class WeatherUpdates extends StatefulWidget {
+  const WeatherUpdates({super.key});
 
   @override
-  State<WaterLevel> createState() => _WaterLevelState();
+  State<WeatherUpdates> createState() => _WeatherUpdatesState();
 }
 
-class _WaterLevelState extends State<WaterLevel> {
-  // https://zcwd.gov.ph/level/level.php
+class _WeatherUpdatesState extends State<WeatherUpdates> {
+  // https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/latest-him-colored-hourly.gif
+  // https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/latest-him-colored.gif
   final controller = WebViewController()
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
-    ..loadRequest(Uri.parse("https://zcwd.gov.ph/level"));
+    ..loadRequest(Uri.parse(
+        "https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/latest-him-colored-hourly.gif"));
 
   Timer? _timer;
 
