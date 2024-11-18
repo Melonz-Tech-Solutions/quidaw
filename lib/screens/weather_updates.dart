@@ -12,10 +12,15 @@ class WeatherUpdates extends StatefulWidget {
 class _WeatherUpdatesState extends State<WeatherUpdates> {
   // https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/latest-him-colored-hourly.gif
   // https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/latest-him-colored.gif
+  // https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/latest-him-colored-hourly.gif
+  // https://www.windy.com/-Rain-thunder-rain?rain,7.823,124.286,7
+  // https://www.windy.com/6.905/122.076?rain,6.876,122.812,8
+  // https://www.windy.com/alerts?rain,6.876,122.812,8
+  // https://www.windy.com/6.905/122.076?rain,6.876,122.812,8,m:dQEajyC
   final controller = WebViewController()
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
-    ..loadRequest(Uri.parse(
-        "https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/latest-him-colored-hourly.gif"));
+    ..loadRequest(
+        Uri.parse("https://www.windy.com/6.905/122.076?rain,6.876,122.812,8"));
 
   Timer? _timer;
 
