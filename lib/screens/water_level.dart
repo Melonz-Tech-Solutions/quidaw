@@ -21,8 +21,8 @@ class _WaterLevelState extends State<WaterLevel> {
   void initState() {
     super.initState();
 
-    // Refresh every 1 minute
-    _timer = Timer.periodic(const Duration(minutes: 1), (Timer timer) {
+    // Refresh every 30 minutes
+    _timer = Timer.periodic(const Duration(minutes: 30), (Timer timer) {
       controller.reload();
     });
   }
