@@ -34,6 +34,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - lib/assets/
     - lib/assets/flood_prone_areas.json
     - lib/assets/hotlines.json
     
