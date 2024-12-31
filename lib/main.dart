@@ -30,24 +30,24 @@ void main() {
       ),
 
       // Theme switching section
-      SystemSection(
-        locale: false, // Hide language options - we're keeping it English only
-        theme: false, // Show theme switcher if your app has dark/light modes
-      ),
+      // SystemSection(
+      //   locale: false, // Hide language options - we're keeping it English only
+      //   theme: false, // Show theme switcher if your app has dark/light modes
+      // ),
 
       // Disable accessibility for demo simplicity
-      AccessibilitySection(
-        boldText: false,
-        invertColors: false,
-        textScalingFactor: false,
-        accessibleNavigation: false,
-      ),
+      // AccessibilitySection(
+      //   boldText: false,
+      //   invertColors: false,
+      //   textScalingFactor: false,
+      //   accessibleNavigation: false,
+      // ),
 
       // Hide extra settings to keep demo focused
-      SettingsSection(
-        backgroundTheme: false,
-        toolsTheme: false,
-      ),
+      // SettingsSection(
+      //   backgroundTheme: false,
+      //   toolsTheme: false,
+      // ),
     ],
 
     // Curated list of devices for comprehensive preview
@@ -67,6 +67,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Quidaw',
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
