@@ -1,20 +1,104 @@
 {
     "hotlines": [
         {
-            "contactNo": "09260912492",
-            "name": "Technical Rescue / Fire Auxiliary"
+            "contactNo": "995-9601",
+            "name": "Zamboanga City Disaster Risk Reduction & Management Office (ZCDRRMO)"
+        },
+        {
+            "contactNo": "09667316242",
+            "name": "EMERGENCY OPERATIONS CENTER 1"
+        },
+        {
+            "contactNo": "09550043682",
+            "name": "EMERGENCY OPERATIONS CENTER 2"
+        },
+        {
+            "contactNo": "09288966279",
+            "name": "EMERGENCY OPERATIONS CENTER 3"
+        },
+        {
+            "contactNo": "09171185550",
+            "name": "ZCWD Customer Care Hotline"
         },
         {
             "contactNo": "09260912492",
             "name": "Technical Rescue / Fire Auxiliary"
         },
         {
-            "contactNo": "09260912492",
-            "name": "Technical Rescue / Fire Auxiliary"
+            "contactNo": "09557816063",
+            "name": "Zamboanga City Fire Disctrict"
         },
         {
-            "contactNo": "09260912492",
-            "name": "Baliwasan"
+            "contactNo": "09531499756",
+            "name": "Ayala Fire Substation"
+        },
+        {
+            "contactNo": "310-9797",
+            "name": "Putik Fire Substation"
+        },
+        {
+            "contactNo": "09361545366",
+            "name": "Lunzuran Fire Substation"
+        },
+        {
+            "contactNo": "09161332436",
+            "name": "Guiwan Fire Substation"
+        },
+        {
+            "contactNo": "991-5809",
+            "name": "Tumaga Fire Substation"
+        },
+        {
+            "contactNo": "985-0920",
+            "name": "Sta. Maria Fire Substation"
+        },
+        {
+            "contactNo": "09064447816",
+            "name": "Tetuan Fire Substation"
+        },
+        {
+            "contactNo": "09561857746",
+            "name": "Sta. Catalina Fire Substation"
+        },
+        {
+            "contactNo": "09750741376",
+            "name": "Mampang Fire Substation"
+        },
+        {
+            "contactNo": "09977031365",
+            "name": "Boalan Fire Substation"
+        },
+        {
+            "contactNo": "09750313372",
+            "name": "Manicahan Fire Substation"
+        },
+        {
+            "contactNo": "09752953599",
+            "name": "Quiniput Fire Substation"
+        },
+        {
+            "contactNo": "09561857746",
+            "name": "Vitali Fire Substation"
+        },
+        {
+            "contactNo": "991-9919",
+            "name": "San Jose Gusu Fire Substation"
+        },
+        {
+            "contactNo": "09171062795",
+            "name": "Calarian Fire Substation"
+        },
+        {
+            "contactNo": "09364262070",
+            "name": "Recodo Fire Substation"
+        },
+        {
+            "contactNo": "09364622070",
+            "name": "Talisayan Fire Substation"
+        },
+        {
+            "contactNo": "09274935473",
+            "name": "Labuan Fire Substation"
         }
     ]
 }
