@@ -35,9 +35,23 @@ class _WaterLevelState extends State<WaterLevel> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-        child: WebViewWidget(
-      controller: controller,
-    ));
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Water Level is based on ZCWD',
+            style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.red,
+      ),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: WebViewWidget(
+                controller: controller,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
